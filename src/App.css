@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(42, 42, 46);
+  height: 100%;
+  width: 100%;
+}
+
+.homepageImg {
+  position: relative;
+  background-image: url(john-towner-UO02gAW3c0c-unsplash.jpg);
+  height: 100vh;
+  color: rgb(227, 225, 232);
+  background-size: cover;
+  background-position: center;
+}
+
+.homepageImg:before {
+	content: '';
+	display: block;
+  height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:rgba(0, 0, 0, 0.5);
+}
+
+.nev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.center {
+  filter: brightness(130%);
+  font-size: 40px;
+  display: block;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.center2 {
+  font-size: 24px;
+  display: block;
+  text-align: center;
+}
+
+.down {
+  text-align: center;
+  display: block;
+  margin-top: 110px;
+  margin-bottom: -110px;
+}
+
+a {
+  margin-left: 120px;
+  font-size: 30px;
+  margin-right: 120px;
+  text-decoration: none;
+  filter: brightness(130%);
+  color: rgb(227, 225, 232);
+}
+
+a:hover {
+  transform: scale(1);
+  text-shadow: 0 0 20px black;
+}
+.imageBack {
+  position: relative;
+  background-image: url(piotr-chrobot-M4EcjtmE01k-unsplash.jpg);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.imageBack:before {
+	content: '';
+	display: block;
+  height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:rgba(0, 0, 0, 0.5);
+}
+
+.darker {
+  background-color:rgba(0, 0, 0, 0.5);
+  width: 60%;
+  font-family: 'Sawarabi Gothic', sans-serif;
+  padding: 20px;
+}
+h2 {
+  color: aliceblue;
+  filter: brightness(130%);
+  font-size: 30px;
+}
+.darker p {
+  color: aliceblue;
+  font-size: 25px;
+  filter: brightness(130%);
+}
+.imageBack2 {
+  position: relative;
+  background-image: url(matteo-raimondi-Gdu4YDNxo10-unsplash.jpg);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.imageBack2:before {
+	content: '';
+	display: block;
+  height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:rgba(0, 0, 0, 0.5);
+}
+.imageBack3 {
+  position: relative;
+  background-image: url(denis-poltoradnev-Jq1zrutUFP4-unsplash.jpg);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.imageBack3:before {
+	content: '';
+	display: block;
+  height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:rgba(0, 0, 0, 0.5);
+}
